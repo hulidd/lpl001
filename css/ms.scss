@@ -1,0 +1,175 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,#box{
+    height: 100%;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 1.75rem;
+    
+    img{
+        width: 100%;
+    }
+    .min{
+        position: relative;
+    overflow: hidden;
+    }
+    .min1{
+        width: 2rem;
+        height: 0.28rem;
+        
+        position: absolute;
+        top: 0.28rem;
+        left: 0.86rem;
+       
+        input{
+            width: 2rem;
+        height: 0.28rem;
+        border-radius: 0.4rem;
+        border: none;
+        text-indent: 2.5em;
+        background: rgba(255,255,255,0.9);
+        }
+        span{
+            position: absolute;
+            top: 0.05rem;
+            left: 0.1rem;
+            font-size: 18px;
+            color: #8d8d8d;
+        }
+    }
+}
+
+main{
+    flex-grow: 1;
+    overflow: hidden;
+    .tu{
+        width: 100%;
+        height: 1.36rem;
+        
+        display: flex;
+        align-items: center;
+        
+        text-align: center;
+        flex-wrap: wrap;
+        div{
+            width: 20%;
+            height: 0.55rem;
+            
+            img{
+                width: 0.37rem;
+                height: 0.37rem;
+            }
+        }
+        
+    }
+}
+ main hr{
+     margin-top: 0;
+     margin-bottom: 0;
+    border: 8px solid #f2f2f2;
+}
+main .caipu{
+    width: 100%;
+    height: 1.72rem;
+    
+     hr{
+           border: 1px solid #f2f2f2;
+           margin-top: 6px;
+           margin-bottom: 6px;
+       }
+    h3{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #696969;
+        font-family: "黑体";
+    }
+    .caipu1{
+        width: 100%;
+        height: 0.62rem;
+        
+        display: flex;
+       justify-content: space-around;
+       align-items: center;
+      
+       img{
+           width: 0.95rem;
+           height: 0.61rem;
+       }
+       div{
+           width: 2.34rem;
+           height: 0.49rem;
+           
+           line-height: 0.15rem;
+           p{
+               margin: 0;
+               font-size: 16px;
+               font-family: "黑体";
+           }
+           span{
+               height: 0.1rem;
+           }
+       }
+    }
+}
+main .weini{
+    width: 100%;
+    height: 1.1rem;
+    
+    h3{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #696969;
+        font-family: "黑体";
+    }
+    .weini1{
+        width: 95%;
+        height: 0.63rem;
+        
+        display: flex;
+       justify-content: space-around;
+        margin: 0 auto;
+        img{
+            width: 1.11rem;
+            height: 0.61rem;
+            
+        }
+    }
+}
+#box1{
+    height: 200%;
+}
+footer{
+    width: 100%;
+    height: 0.5rem;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    div{
+        height: 0.42rem;
+        
+    }
+    img{
+        width: 0.24rem;
+        height: 0.26rem;
+    }
+    div:nth-child(1){
+        p{
+            color: #ff5d72;
+        }
+    }
+    
+}
